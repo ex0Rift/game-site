@@ -1,11 +1,9 @@
 [
     {
-        "title":"item"
-    },
-    {
-        "title":"itemtwo"
-    },
-    {
-        "title":"itemthree"
+        "title":"FreeRun",
+        "description": "Run as fast as you can with ducky!",
+        "thumbnail":"../assets/thumbnails/freerun_thumbnail.png",
+        "type":"web",
+        "location":""
     }
 ]

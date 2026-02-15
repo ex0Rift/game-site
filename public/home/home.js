@@ -12,7 +12,11 @@ fetch('../data/gameList.json')
             div.className = 'item basic-style';
             //adds the HTML
             div.innerHTML = `
-                <h3>${item.title}</h3>
+                <img src="${item.thumbnail}">
+                <div class="item-text-section">
+                    <h2>${item.title}</h2>
+                    <p>${item.description}</p>
+                </div>
             `;
             //Puts it inside the grid element
             grid.appendChild(div);

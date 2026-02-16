@@ -5,5 +5,12 @@
         "thumbnail":"../assets/thumbnails/freerun_thumbnail.png",
         "type":"web",
         "location":"https://ex0rift.itch.io/freerun"
+    },
+    {
+        "title":"Pingo Jump",
+        "description": "Jump across the world with Pingo!",
+        "thumbnail":"../assets/thumbnails/pingoJump_thumbnail.png",
+        "type":"desktop",
+        "location":"https://ex0rift.itch.io/pingo-jump"
     }
 ]

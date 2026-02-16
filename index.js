@@ -1,4 +1,3 @@
-import packageJSON from './package.json' with {type: 'json'};
 import express from 'express';
 import path from 'path';
 import {fileURLToPath} from 'url';
@@ -8,7 +7,6 @@ const __dirname = path.dirname(__filename);
 
 const app = express();
 const port = 8080;
-const version =  packageJSON.version;
 
 app.use(express.static(path.join(__dirname, 'public')));
 
@@ -17,5 +15,5 @@ app.get('/', (req,res) => {
 });
 
 app.listen(port, () => {
-    console.log(`Server started at http://localhost:${port} \n version: ${version}`);
+    console.log(`Server started at http://localhost:${port}`);
 });

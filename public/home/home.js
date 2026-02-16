@@ -17,7 +17,22 @@ fetch('../data/gameList.json')
                     <h2>${item.title}</h2>
                     <p>${item.description}</p>
                 </div>
+                <div class="item-attribute-row">
+                    <h4>${item.type}</h4>
+                </div>
             `;
+            //change background colour of item.type depeding on paltform
+            if (item.type === "web"){
+                div.querySelector("h4").style.backgroundColor = "#0b72e9ff";
+            } else {
+                div.querySelector("h4").style.backgroundColor = "#e91a0b";
+            }
+
+            //add event listener to redirect when pressed
+            div.addEventListener("click", () =>{
+                window.location.href = item.location;
+            });
+
             //Puts it inside the grid element
             grid.appendChild(div);
         });

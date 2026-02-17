@@ -7,10 +7,18 @@
         "location":"https://ex0rift.itch.io/freerun"
     },
     {
+        "title":"Naughts and Crosses",
+        "description": "It is naughts and crosses... but made by me!",
+        "thumbnail":"../assets/thumbnails/naughtsAndCrosses_thumbnail.png",
+        "type":"web",
+        "location":"/tictactoe"
+    },
+    {
         "title":"Pingo Jump",
         "description": "Jump across the world with Pingo!",
         "thumbnail":"../assets/thumbnails/pingoJump_thumbnail.png",
         "type":"desktop",
         "location":"https://ex0rift.itch.io/pingo-jump"
     }
+    
 ]

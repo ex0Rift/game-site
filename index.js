@@ -14,6 +14,10 @@ app.get('/', (req,res) => {
     res.sendFile(path.join(__dirname, 'public', 'home/index.html'));
 });
 
+app.get('/ticTacToe', (req,res) => {
+    res.sendFile(path.join(__dirname,'public','game_ticTacToe/page.html'));
+});
+
 app.listen(port, () => {
     console.log(`Server started at http://localhost:${port}`);
 });

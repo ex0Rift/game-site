@@ -1,0 +1,39 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #434343;
+    color: #ffffff;
+
+    display: flex;
+    gap: 15px;
+
+    overflow: hidden;
+}
+
+.big-box{
+    background-color: #303030;
+    border-radius: 32px;
+    border: 1px solid #747474;
+}
+
+.man-box{
+    width: 40vw;
+    height: 98vh;
+}
+
+.words-box{
+    width: 60vw;
+    height: 98vh;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.fail-area{
+    height: 70vh;
+}
+
+.word-area{
+    height: 30vh;
+}
+

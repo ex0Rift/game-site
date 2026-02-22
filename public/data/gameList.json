@@ -1,10 +1,10 @@
 [
     {
-        "title":"FreeRun",
-        "description": "Run as fast as you can with ducky!",
-        "thumbnail":"../assets/thumbnails/freerun_thumbnail.png",
-        "type":"web",
-        "location":"https://ex0rift.itch.io/freerun"
+        "title":"Hang Man",
+        "description":"Guess the word or he's finished!",
+        "thumbnail":"",
+        "type":"Web",
+        "location":"hangMan"
     },
     {
         "title":"Naughts and Crosses",
@@ -19,6 +19,13 @@
         "thumbnail":"../assets/thumbnails/pingoJump_thumbnail.png",
         "type":"desktop",
         "location":"https://ex0rift.itch.io/pingo-jump"
+    },
+    {
+        "title":"FreeRun",
+        "description": "Run as fast as you can with ducky!",
+        "thumbnail":"../assets/thumbnails/freerun_thumbnail.png",
+        "type":"web",
+        "location":"https://ex0rift.itch.io/freerun"
     }
     
 ]
